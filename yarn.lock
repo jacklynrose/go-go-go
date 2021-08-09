@@ -194,6 +194,7 @@ __metadata:
     next: ^11.0.1
     react: ^17.0.2
     react-dom: ^17.0.2
+    typescript: ^4.3.5
   languageName: unknown
   linkType: soft
 
@@ -5463,7 +5464,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-typescript@^4.2.4:
+"typescript@^4.2.4, typescript@^4.3.5":
   version: 4.3.5
   resolution: "typescript@npm:4.3.5"
   bin:
@@ -5473,7 +5474,7 @@ typescript@^4.2.4:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.2.4#~builtin<compat/typescript>":
+"typescript@patch:typescript@^4.2.4#~builtin<compat/typescript>, typescript@patch:typescript@^4.3.5#~builtin<compat/typescript>":
   version: 4.3.5
   resolution: "typescript@patch:typescript@npm%3A4.3.5#~builtin<compat/typescript>::version=4.3.5&hash=d8b4e7"
   bin:
